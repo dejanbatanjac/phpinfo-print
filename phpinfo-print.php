@@ -18,7 +18,7 @@ if ( ! function_exists( 'add_action' ) ) {
 }
 
 // exploit the idea that we use class organization
-require_once( 'lib/phpinfo_class.php' );
+require_once( 'lib/phpinfo-class.php' );
 
 Db_PHP_Info::install_actions();
 Db_PHP_Info::install_plugin();

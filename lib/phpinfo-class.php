@@ -4,7 +4,7 @@ if ( ! class_exists( 'Db_PHP_Info' ) ) {
 	class Db_PHP_Info {
 
 		public static function install_plugin() {}
-	  public static function uninstall_plugin() {}
+		public static function uninstall_plugin() {}
 
 		public static function install_actions() {
 			add_action( 'admin_menu', 'Db_PHP_Info::admin_menus' );
@@ -20,7 +20,7 @@ if ( ! class_exists( 'Db_PHP_Info' ) ) {
 		}
 
 		public function menu() {
-			require( 'phpinfo_menu.php' );
+			require( 'phpinfo-menu.php' );
 		}
 
 	}// End class{}.
