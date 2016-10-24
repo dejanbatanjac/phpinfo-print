@@ -1,6 +1,6 @@
 === PHPINFO Print ===
 Contributors: Dejan Batanjac
-Donate link: http://programming-review.com/
+Donate link: https://programming-review.com/
 Tags: phpinfo, hosting data, webserver, settings
 Requires at least: 4.0
 Tested up to: 4.7
