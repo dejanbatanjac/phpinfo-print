@@ -26,7 +26,6 @@ echo '<style type="text/css">
  hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;}
  </style>';
 
-
 $pos1 = strpos( $c, '<table' );
 $pos2 = strrpos( $c, '</table>', $pos1 );
 
