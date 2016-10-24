@@ -14,7 +14,7 @@ define( 'PHPINFO_VERSION', '1.1' );
 // Make sure we don't expose any info if called directly
 if ( ! function_exists( 'add_action' ) ) {
 	echo "Hi there!  I'm just a plugin, not much I can do when called directly.";
-	exit;
+	wp_die();
 }
 
 // exploit the idea that we use class organization
