@@ -1,4 +1,4 @@
-=== phpinfo-print ===
+=== PHPINFO Print ===
 Contributors: Dejan Batanjac
 Donate link: http://programming-review.com/
 Tags: phpinfo, hosting data, webserver, settings
