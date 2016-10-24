@@ -6,7 +6,6 @@ Description: Displays phpinfo() in a traditional style
 Author: Dejan Batanjac
 Version: 1.2.0
 Author URI: http://programming-review.com/
-TODO: add multilanguage support
 */
 
 define( 'PHPINFO_VERSION', '1.1' );
