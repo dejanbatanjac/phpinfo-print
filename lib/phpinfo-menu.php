@@ -1,11 +1,11 @@
 <?php
- ob_start();
- phpinfo();
- $c = ob_get_contents();
- ob_end_clean();
 
+ob_start();
+phpinfo();
+$c = ob_get_contents();
+ob_end_clean();
 
- echo '<style type="text/css">
+echo '<style type="text/css">
  td, th {font-family: sans-serif;}
  pre {margin: 0px; font-family: monospace;}
  a:link {color: #000099; text-decoration: none; }
@@ -27,13 +27,9 @@
  </style>';
 
 
- $pos1 = strpos($c, '<table');
- $pos2 = strrpos($c, '</table>', $pos1);
+$pos1 = strpos( $c, '<table' );
+$pos2 = strrpos( $c, '</table>', $pos1 );
 
- echo '<div style="margin:10px">';
- echo substr($c, $pos1, $pos2-$pos1+8 );
- echo '</div>';
-
-
-
-?>
+echo '<div style="margin:10px">';
+echo substr( $c, $pos1, $pos2 - $pos1 + 8 );
+echo '</div>';
