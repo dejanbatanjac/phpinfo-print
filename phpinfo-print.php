@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: phpinfo-print
+Plugin Name: PHPINFO Print
 Plugin URI: http://programming-review.com/
 Description: Displays phpinfo() in a traditional style
 Author: Dejan Batanjac
