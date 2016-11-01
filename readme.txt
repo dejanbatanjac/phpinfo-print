@@ -26,6 +26,9 @@ Basically the smallest peace of code you can imagine.
 
 == Changelog ==
 
+= 1.3.0 [2016-11-01] =
+* Maintenance release.
+
 = 1.2.0 [2016-10-24] =
 * Maintenance release.
 
